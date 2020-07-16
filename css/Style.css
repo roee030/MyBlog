@@ -33,6 +33,14 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
 }
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem ;
+}
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
 /****x********Global*****x****/
 
 /*************** nav *************/
@@ -40,8 +48,9 @@ a{
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 15vh;
+    min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 .nav .nav-menu{
     justify-content: space-between;
@@ -53,6 +62,10 @@ a{
     width: 90%;
     cursor: pointer;
     display: none;
+}
+
+.collapse{
+    height: 30rem;
 }
 .nav .toggle-collapse .toggle-icons{
     display: flex;
@@ -68,6 +81,7 @@ a{
     list-style-type: none;
     display: flex;
     margin: 0;
+    align-items: center;
 }
 .nav .nav-items .nav-link {
     padding: 1.6rem;
@@ -120,3 +134,33 @@ a{
 
 
 /****x**** View Port ******x****/
+
+
+
+
+/********* Main Content ***********/
+
+main .site-title{
+    background-image: url(../assets/Background-image.png);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+main .site-title h1,h3{
+    margin: .3rem;
+}
+main .site-title .btn{
+    margin: 1.8rem;
+    background: var(--sky);
+    padding: 1.2rem;
+    border-radius: 20%;
+}
+
+/****x**** Main Content ******x****/
