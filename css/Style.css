@@ -365,6 +365,28 @@ section .container .owl-nav{
 .post-title a {
     font-size: 1rem;
 }
+
+
+.newslatter{
+    padding-top: 3rem;
+}
+
+.form-element{
+    padding: .5rem 2rem;
+}
+.input-element{
+    width: 80%;
+    height: 2rem;
+    padding: .3rem .5rem;
+    font-family: var(--Lexend);
+    font-style: 1rem;
+}
+.form-btn{
+    border-radius: 0 !important;
+    padding: .8rem 32%;
+    margin: 1rem 0;
+    background: var(--sky);
+}
 /***X****** Side Bar *****X****/
 
 
